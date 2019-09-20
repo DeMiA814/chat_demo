@@ -129,5 +129,10 @@ CHANNEL_LAYERS = {
         'CONFIG': {
             "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')],
         },
+        
     },
 }
+
+IS_CI = os.environ.get('IS_CI', False)
+if not IS_CI:
+    django_heroku.settings(locals())
