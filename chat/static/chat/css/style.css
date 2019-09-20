@@ -1,0 +1,42 @@
+body {
+    background: #222;
+}
+
+/* chat room */
+.chat-room {
+    padding: 20px;
+}
+
+.chat-log {
+    width: calc(100% - 22px);
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.chat-message-input {
+    float: left;
+    display:inline-block;
+    width: calc(100% - 80px);
+    padding: 0.7em 1.0em;
+    border-radius: 3px;
+    /* margin-right: 50px; */
+}
+
+.chat-message-submit {
+    float: right;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 4px #627295;
+}
+.chat-message-submit:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
