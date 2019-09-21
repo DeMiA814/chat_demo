@@ -34,6 +34,7 @@ body {
     border-left: none;
     border-bottom: solid 4px #627295;
 }
+
 .chat-message-submit:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);
