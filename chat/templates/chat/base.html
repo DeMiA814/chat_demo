@@ -12,7 +12,7 @@
     <body>
         {% block content %}{% endblock %}
         {% block js %}{% endblock %}
-        {% comment %} <footer>
+        <footer class="footer">
             <ul class="nav-list">
                 <li class="nav-item_footer"> 
                     <a href="{% url 'room_list' %}">       
@@ -20,7 +20,7 @@
                     </a>
                 </li>
                 <li class="nav-item_footer">
-                    <a href="{% url 'room' %}">
+                    <a href="{% url 'room' room_name_json %}">
                     <span>トークルーム</span>
                     </a>
                 </li>
@@ -35,6 +35,6 @@
                     </a>
                 </li>
             </ul>
-        </footer> {% endcomment %}
+        </footer>
     </body>
 </html>

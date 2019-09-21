@@ -41,3 +41,26 @@ body {
     transform: translateY(4px);/*下に動く*/
     border-bottom: none;/*線を消す*/
   }
+
+.footer {
+    position: fixed;
+    /* margin-top: calc(100% - 50px); */
+    bottom: 0px;
+}
+
+.nav-list {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    background-color:#ffffff;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin:0;
+}
+
+.nav-item_footer { 
+    display: table-cell;
+    padding: 4px 0px;
+}
