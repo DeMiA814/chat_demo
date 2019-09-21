@@ -1,0 +1,15 @@
+<!-- chat/templates/chat/base.html -->
+{% load static %}
+{% comment %} {% load pwa %} {% endcomment %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>DeMiA Chat</title>
+    <link rel="stylesheet" type ="text/css" href="{% static 'chat/css/style.css' %}" />
+</head>
+<body>
+{% block content %}{% endblock %}
+{% block js %}{% endblock %}
+</body>
+</html>
