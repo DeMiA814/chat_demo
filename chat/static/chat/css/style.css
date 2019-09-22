@@ -1,10 +1,11 @@
 body {
     background: #222;
+    margin: 0px;
 }
 
 /* chat room */
 .chat-room {
-    padding: 20px;
+    margin: 20px;
 }
 
 .chat-log {
@@ -42,6 +43,17 @@ body {
     border-bottom: none;/*線を消す*/
   }
 
+/* header */
+header {
+    background: #fff;
+}
+.header-title p {
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+
+/* footer */
 .footer {
     position: fixed;
     /* margin-top: calc(100% - 50px); */
@@ -60,7 +72,7 @@ body {
     margin:0;
 }
 
-.nav-item_footer { 
+.nav-item-footer { 
     display: table-cell;
     padding: 4px 0px;
 }
