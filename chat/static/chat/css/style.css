@@ -1,5 +1,5 @@
 body {
-    background: #222;
+    background: #cccccc;
     margin: 0px;
 }
 
@@ -45,11 +45,13 @@ body {
 
 /* header */
 header {
-    background: #fff;
+    color: #ddd;
+    background: #222;
 }
 .header-title p {
     padding: 10px 20px;
     margin: 0px;
+    font-weight: bold;
 }
 
 
@@ -61,11 +63,12 @@ header {
 }
 
 .nav-list {
+    color: #ddd;
     display: table;
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    background-color:#ffffff;
+    background-color:#222;
     padding: 0;
     list-style: none;
     text-align: center;
